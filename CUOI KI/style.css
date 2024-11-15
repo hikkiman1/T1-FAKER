@@ -1,6 +1,42 @@
 *{
     box-sizing: border-box;
     font-family: 'Lato',sans-serif;
+    padding: 0;
+    margin: 0;
+}
+header{
+    background-color: black;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    right: 0;
+    z-index: 1000;
+    padding: 35px 7%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    transition: all .5s ease;
+}
+.logo{
+    font-size: 40px;
+    color: #fff;
+    text-decoration: none;
+    font-weight: 700;
+    font-style: italic ;
+}
+.nav{
+    display: flex;
+}
+.nav a{
+    text-decoration: none;
+    display: inline-block;
+    margin: 0 35px;
+    color:#fff;
+    font-size: 25px;
+    transition: all .6s ease
+}
+.nav a:hover{
+    color:red
 }
 html, body{
     width: 100%;

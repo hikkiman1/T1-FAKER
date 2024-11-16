@@ -5,7 +5,7 @@
     margin: 0;
 }
 header{
-    background-color: black;
+    background: black;
     position: fixed;
     width: 100%;
     top: 0;
@@ -18,25 +18,43 @@ header{
     transition: all .5s ease;
 }
 .logo{
-    font-size: 40px;
-    color: #fff;
-    text-decoration: none;
-    font-weight: 700;
-    font-style: italic ;
+    width: 90px;
+    height: 90px;
+    margin-left: 100px;
+    margin-top: 10px;
 }
 .nav{
     display: flex;
+    padding-top: 5px;
 }
 .nav a{
-    text-decoration: none;
-    display: inline-block;
-    margin: 0 35px;
+    text-decoration:none;
+    text-transform: uppercase;
+    position: relative;
+    display: block;
+    margin: 0 30px;
+    padding-bottom: 10px;
     color:#fff;
     font-size: 25px;
-    transition: all .6s ease
+    transition: all 0.3s ease;
+
 }
 .nav a:hover{
     color:red
+}
+.nav a::after{
+    content: "";
+    height: 5px;
+    width: 0px;
+    background: red;
+    position: absolute;
+    bottom: 0px; 
+    left: 0;
+    transition: all 0.3s ease-in-out;
+}
+.nav a:hover::after{
+    width: 100%;
+    transform: translateX(0%);
 }
 html, body{
     width: 100%;
@@ -44,9 +62,7 @@ html, body{
     display: flex;  
     justify-content: center;
     align-items: center;
-    background-image: url(thumb-1920-1340819.png); 
-    background-repeat: no-repeat;
-    background-position: center;
+    background-image: url(1340820.png); 
     background-size: cover;
 }
 /*Cai wrap nay de goi bon no trong mot hang nhe*/

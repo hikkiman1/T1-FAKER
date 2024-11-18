@@ -19,7 +19,7 @@ html, body{
     display: flex;  
     justify-content: center;
     align-items: center;
-    background-color: rgb(135, 138, 141); 
+    background-color: rgb(88, 81, 81); 
     background-size: cover;
 }
 .wrapper{
@@ -94,12 +94,12 @@ header{
     flex-direction: column;
 }
 .top{
-    width:200vh;
+    width:100%;
     background: linear-gradient(to top, rgba(0,0,0,0.5)50%, rgba(0,0,0,0.5)50%), url(img/fakerandcup.jpeg);
     background-position: center;
     background-size: cover;
     height:70vh ;
-    margin-top: 100vh;
+    margin-top: 375vh;
 }
 .img{
     margin-bottom: 1rem;
@@ -143,4 +143,10 @@ header{
     font-size: 1.75rem;
     letter-spacing: 0;
     font-weight: bolder;
+}
+h1{
+    text-align: center;
+}
+.vid{
+    margin-bottom: 1rem;
 }

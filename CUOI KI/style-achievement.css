@@ -22,9 +22,6 @@ html, body{
     background-color: rgb(88, 81, 81); 
     background-size: cover;
 }
-.wrapper{
-    position: relative;
-}
 header{
     background: black;
     position: fixed;
@@ -78,20 +75,8 @@ header{
     width: 100%;
     transform: translateX(0%);
 }
-.big{
-    font-weight: bold;
-    color: white;
-    font-family: 'TOP';
-    letter-spacing: 1.2vw;
-    font-size: 70px;
-}
-.text{
-    width: 100%;
-    height: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: flex-end;
-    flex-direction: column;
+.wrapper{
+    position: relative;
 }
 .top{
     width:100%;
@@ -101,16 +86,20 @@ header{
     height:70vh ;
     margin-top: 375vh;
 }
-.img{
-    margin-bottom: 1rem;
-    height: auto;
-    max-width: 100%;
+.text{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    flex-direction: column;
 }
-.h{
-    height: 1px;
-    width: 4rem;
-    background:lightgray;
-    border: none;
+.big{
+    font-weight: bold;
+    color: white;
+    font-family: 'TOP';
+    letter-spacing: 1.2vw;
+    font-size: 70px;
 }
 .transcript{
     display: flex;
@@ -143,6 +132,17 @@ header{
     font-size: 1.75rem;
     letter-spacing: 0;
     font-weight: bolder;
+}
+.h{
+    height: 1px;
+    width: 4rem;
+    background:lightgray;
+    border: none;
+}
+.img{
+    margin-bottom: 1rem;
+    height: auto;
+    max-width: 100%;
 }
 h1{
     text-align: center;
